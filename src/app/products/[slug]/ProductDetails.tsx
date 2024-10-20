@@ -84,7 +84,7 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
           setSelectedOptions={setSelectedOptions}
         />
         <div className="space-y-1.5">
-          <Label htmlFor="quantity">Quantity</Label>
+          <Label htmlFor="quantity">Cantidad</Label>
           <div className="flex items-center gap-2.5">
             <Input
               name="quantity"
@@ -97,7 +97,7 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
             {!!availableQuantity &&
               (availableQuantityExceeded || availableQuantity < 10) && (
                 <span className="text-destructive">
-                  Only {availableQuantity} left in stock
+                  Solo hay {availableQuantity} en inventario.
                 </span>
               )}
           </div>
@@ -129,7 +129,7 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
           <div className="space-y-1.5 text-sm text-muted-foreground">
             <span className="flex items-center gap-2">
               <InfoIcon className="size-5" />
-              <span>Additional product information</span>
+              <span>Información adicional del producto</span>
             </span>
             <Accordion type="multiple">
               {product.additionalInfoSections.map((section) => (

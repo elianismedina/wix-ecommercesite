@@ -41,7 +41,7 @@ export default async function Page({
 
   return (
     <div className="space-y-5">
-      <h2 className="text-2xl font-bold">Products</h2>
+      <h2 className="text-2xl font-bold">Productos</h2>
       <Suspense fallback={<LoadingSkeleton />} key={page}>
         <Products collectionId={collection._id} page={parseInt(page)} />
       </Suspense>

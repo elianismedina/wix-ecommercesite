@@ -34,12 +34,12 @@ export default async function Page({ searchParams: { orderId } }: PageProps) {
   return (
     <main className="mx-auto flex max-w-3xl flex-col items-center space-y-5 px-5 py-10">
       <h1 className="text-3xl font-bold">We received your order!</h1>
-      <p>A summary of your order was sent to your email address.</p>
+      <p>Un resumen de tu orden ha sido enviado a tu correo electrónico.</p>
       <h2 className="text-2xl font-bold">Order details</h2>
       <Order order={order} />
       {loggedInMember && (
         <Link href="/profile" className="block text-primary hover:underline">
-          View all your orders
+          Ver todas tus ordenes
         </Link>
       )}
       {orderCreatedDate &&

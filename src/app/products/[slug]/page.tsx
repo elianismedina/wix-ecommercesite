@@ -59,7 +59,7 @@ export default async function Page({ params: { slug } }: PageProps) {
       </Suspense>
       <hr />
       <div className="space-y-5">
-        <h2 className="text-2xl font-bold">Buyer reviews</h2>
+        <h2 className="text-2xl font-bold">Calificaciones de compradores</h2>
         <Suspense fallback={<ProductReviewsLoadingSkeleton />}>
           <ProductReviewsSection product={product} />
         </Suspense>
@@ -82,7 +82,7 @@ async function RelatedProducts({ productId }: RelatedProductsProps) {
 
   return (
     <div className="space-y-5">
-      <h2 className="text-2xl font-bold">Related Products</h2>
+      <h2 className="text-2xl font-bold">Productos Relacionados</h2>
       <div className="flex grid-cols-2 flex-col gap-5 sm:grid lg:grid-cols-4">
         {relatedProducts.map((product) => (
           <Product key={product._id} product={product} />

@@ -57,10 +57,10 @@ export default function ProductReviews({ product }: ProductReviewsProps) {
     <div className="space-y-5">
       {status === "pending" && <ProductReviewsLoadingSkeleton />}
       {status === "error" && (
-        <p className="text-destructive">Error fetching reviews</p>
+        <p className="text-destructive">Error mostrando calificaciones</p>
       )}
       {status === "success" && !reviewItems.length && !hasNextPage && (
-        <p>No reviews yet</p>
+        <p>No hay calificaciones todavía</p>
       )}
       <div className="divide-y">
         {reviewItems.map((review) => (
@@ -72,7 +72,7 @@ export default function ProductReviews({ product }: ProductReviewsProps) {
           loading={isFetchingNextPage}
           onClick={() => fetchNextPage()}
         >
-          Load more reviews
+          Cargar más calificaciones
         </LoadingButton>
       )}
     </div>

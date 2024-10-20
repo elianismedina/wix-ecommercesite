@@ -28,12 +28,12 @@ export default function MainNavigation({
         <NavigationMenuItem>
           <Link href="/shop" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Shop
+              Comprar
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Collections</NavigationMenuTrigger>
+          <NavigationMenuTrigger>Productos</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="p-4">
               {collections.map((collection) => (

@@ -16,22 +16,23 @@ export default function Home() {
       <div className="flex items-center bg-secondary md:h-96">
         <div className="space-y-7 p-10 text-center md:w-1/2">
           <h1 className="text-3xl font-bold md:text-4xl">
-            Fill the void in your heart
+            Consiente a tu bebé con lo mejor
           </h1>
           <p>
-            Tough day? Credit card maxed out? Buy some expensive stuff and
-            become happy again!
+            ¿Pensando en cómo consentir a tu pequeñin? Encuentra las mejores
+            maraca de ropa y accesorios para bebé en Paco & Tuti. ¡Hazlo sonreir
+            y regalale lo mejor de ti!
           </p>
           <Button asChild>
             <Link href="/shop">
-              Shop Now <ArrowRight className="ml-2 size-5" />
+              Comprar Ahora <ArrowRight className="ml-2 size-5" />
             </Link>
           </Button>
         </div>
         <div className="relative hidden h-full w-1/2 md:block">
           <Image
             src={banner}
-            alt="Flow Shop banner"
+            alt="Paco & Tuti banner"
             className="h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary via-transparent to-transparent" />
@@ -63,7 +64,7 @@ async function FeaturedProducts() {
 
   return (
     <div className="space-y-5">
-      <h2 className="text-2xl font-bold">Featured Products</h2>
+      <h2 className="text-2xl font-bold">Productos destacados</h2>
       <div className="flex grid-cols-2 flex-col gap-5 sm:grid md:grid-cols-3 lg:grid-cols-4">
         {featuredProducts.items.map((product) => (
           <Product key={product._id} product={product} />

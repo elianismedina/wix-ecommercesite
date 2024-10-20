@@ -7,10 +7,11 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 gap-x-12 gap-y-16 md:col-span-3 lg:grid-cols-6">
           <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
-            <div className="text-2xl font-bold">Flow Shop</div>
+            <div className="text-2xl font-bold">Paco & Tuti</div>
             <p className="mt-7 text-base leading-relaxed text-muted-foreground">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
+              Somos un multi marca enfocado en seleccionar los mejores productos
+              del mundo de los bebés para llevarlo a los padres del mundo con
+              amor.
             </p>
 
             <ul className="mt-9 flex items-center space-x-3">
@@ -92,7 +93,7 @@ export default function Footer() {
 
           <div>
             <p className="text-sm font-semibold uppercase tracking-widest text-muted-foreground">
-              Company
+              Menú
             </p>
 
             <ul className="mt-6 space-y-4">
@@ -103,7 +104,7 @@ export default function Footer() {
                   className="flex text-base transition-all duration-200 hover:text-primary focus:text-primary"
                 >
                   {" "}
-                  About{" "}
+                  Acerca de Paco & Tuti{" "}
                 </a>
               </li>
 
@@ -114,7 +115,7 @@ export default function Footer() {
                   className="flex text-base transition-all duration-200 hover:text-primary focus:text-primary"
                 >
                   {" "}
-                  Features{" "}
+                  Blog y consejos{" "}
                 </a>
               </li>
 
@@ -144,7 +145,7 @@ export default function Footer() {
 
           <div>
             <p className="text-sm font-semibold uppercase tracking-widest text-muted-foreground">
-              Help
+              Información adicional
             </p>
 
             <ul className="mt-6 space-y-4">
@@ -155,7 +156,7 @@ export default function Footer() {
                   className="flex text-base transition-all duration-200 hover:text-primary focus:text-primary"
                 >
                   {" "}
-                  Customer Support{" "}
+                  Política de reembolso{" "}
                 </a>
               </li>
 
@@ -166,7 +167,7 @@ export default function Footer() {
                   className="flex text-base transition-all duration-200 hover:text-primary focus:text-primary"
                 >
                   {" "}
-                  Delivery Details{" "}
+                  Términos del servicio{" "}
                 </a>
               </li>
 
@@ -177,7 +178,7 @@ export default function Footer() {
                   className="flex text-base transition-all duration-200 hover:text-primary focus:text-primary"
                 >
                   {" "}
-                  Terms & Conditions{" "}
+                  Términos y condiciones{" "}
                 </a>
               </li>
 
@@ -188,7 +189,7 @@ export default function Footer() {
                   className="flex text-base transition-all duration-200 hover:text-primary focus:text-primary"
                 >
                   {" "}
-                  Privacy Policy{" "}
+                  Política de privacidad{" "}
                 </a>
               </li>
             </ul>
@@ -196,7 +197,7 @@ export default function Footer() {
 
           <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
             <p className="text-sm font-semibold uppercase tracking-widest text-muted-foreground">
-              Subscribe to newsletter
+              Únete a la lista de amigos de Paco & Tuti
             </p>
 
             <form action="#" method="POST" className="mt-6">
@@ -208,7 +209,7 @@ export default function Footer() {
                   type="email"
                   name="email"
                   id="email"
-                  placeholder="Enter your email"
+                  placeholder="correo electrónico"
                   className="block w-full"
                 />
               </div>
@@ -218,7 +219,7 @@ export default function Footer() {
                 size="lg"
                 className="mt-3 inline-flex items-center justify-center rounded-md bg-primary px-6 py-4"
               >
-                Subscribe
+                Subscribirse
               </Button>
             </form>
           </div>
@@ -227,8 +228,8 @@ export default function Footer() {
         <hr className="mb-10 mt-16" />
 
         <p className="text-center text-sm text-muted-foreground">
-          © Copyright {new Date().getFullYear()}, All Rights Reserved by Flow
-          Shop
+          © Copyright {new Date().getFullYear()}, Todos los derechos reservados
+          por Paco & Tuti Shop
         </p>
       </div>
     </footer>

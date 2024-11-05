@@ -96,7 +96,7 @@ export default function MemberInfoForm({ member }: MemberInfoFormProps) {
           )}
         />
         <LoadingButton type="submit" loading={mutation.isPending}>
-          Submit
+          Guardar
         </LoadingButton>
       </form>
     </Form>

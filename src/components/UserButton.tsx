@@ -58,7 +58,7 @@ export default function UserButton({
             <Link href="/profile">
               <DropdownMenuItem>
                 <UserIcon className="mr-2 size-4" />
-                Profile
+                Perfil
               </DropdownMenuItem>
             </Link>
             <DropdownMenuSeparator />
@@ -67,23 +67,23 @@ export default function UserButton({
         <DropdownMenuSub>
           <DropdownMenuSubTrigger>
             <Monitor className="mr-2 size-4" />
-            Theme
+            Temas
           </DropdownMenuSubTrigger>
           <DropdownMenuPortal>
             <DropdownMenuSubContent>
               <DropdownMenuItem onClick={() => setTheme("system")}>
                 <Monitor className="mr-2 size-4" />
-                System default
+                Por defecto
                 {theme === "system" && <Check className="ms-2 size-4" />}
               </DropdownMenuItem>
               <DropdownMenuItem onClick={() => setTheme("light")}>
                 <Sun className="mr-2 size-4" />
-                Light
+                Claro
                 {theme === "light" && <Check className="ms-2 size-4" />}
               </DropdownMenuItem>
               <DropdownMenuItem onClick={() => setTheme("dark")}>
                 <Moon className="mr-2 size-4" />
-                Dark
+                Oscuro
                 {theme === "dark" && <Check className="ms-2 size-4" />}
               </DropdownMenuItem>
             </DropdownMenuSubContent>
@@ -93,12 +93,12 @@ export default function UserButton({
         {loggedInMember ? (
           <DropdownMenuItem onClick={() => logout()}>
             <LogOutIcon className="mr-2 size-4" />
-            Logout
+            Cerrar sesión
           </DropdownMenuItem>
         ) : (
           <DropdownMenuItem onClick={() => login()}>
             <LogInIcon className="mr-2 size-4" />
-            Login
+            Iniciar sessión
           </DropdownMenuItem>
         )}
       </DropdownMenuContent>

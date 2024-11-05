@@ -50,7 +50,7 @@ export default function ShoppingCartButton({
         <SheetContent className="flex flex-col sm:max-w-lg">
           <SheetHeader>
             <SheetTitle>
-              Your cart{" "}
+              Tu carrito{" "}
               <span className="text-base">
                 ({totalQuantity} {totalQuantity === 1 ? "item" : "items"})
               </span>
@@ -75,13 +75,13 @@ export default function ShoppingCartButton({
             {!cartQuery.isPending && !cartQuery.data?.lineItems?.length && (
               <div className="flex grow items-center justify-center text-center">
                 <div className="space-y-1.5">
-                  <p className="text-lg font-semibold">Your cart is empty</p>
+                  <p className="text-lg font-semibold">Tu carrito está vacio</p>
                   <Link
                     href="/shop"
                     className="text-primary hover:underline"
                     onClick={() => setSheetOpen(false)}
                   >
-                    Start shopping now
+                    Comienza a comprar ahora
                   </Link>
                 </div>
               </div>
@@ -90,13 +90,13 @@ export default function ShoppingCartButton({
           <hr />
           <div className="flex items-center justify-between gap-5">
             <div className="space-y-0.5">
-              <p className="text-sm">Subtotal amount:</p>
+              <p className="text-sm">Monto subtotal:</p>
               <p className="font-bold">
                 {/* @ts-expect-error */}
                 {cartQuery.data?.subtotal?.formattedConvertedAmount}
               </p>
               <p className="text-xs text-muted-foreground">
-                Shipping and taxes calculated at checkout
+                Tarifa de envio e impuestos calculados en el checkout
               </p>
             </div>
             <CheckoutButton
@@ -142,7 +142,7 @@ function ShoppingCartItem({
             mediaIdentifier={item.image}
             width={110}
             height={110}
-            alt={item.productName?.translated || "Product image"}
+            alt={item.productName?.translated || "Imagen de producto"}
             className="flex-none bg-secondary"
           />
         </Link>
@@ -203,7 +203,7 @@ function ShoppingCartItem({
           >
             +
           </Button>
-          {quantityLimitReached && <span>Quantity limit reached</span>}
+          {quantityLimitReached && <span>Límite de cantidad alcanzado</span>}
         </div>
       </div>
     </li>

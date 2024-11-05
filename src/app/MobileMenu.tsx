@@ -58,7 +58,7 @@ export default function MobileMenu({
       <Sheet open={isOpen} onOpenChange={setIsOpen}>
         <SheetContent side="left" className="w-full">
           <SheetHeader>
-            <SheetTitle>Navigation</SheetTitle>
+            <SheetTitle>Navegación</SheetTitle>
           </SheetHeader>
           <div className="flex flex-col items-center space-y-10 py-10">
             <SearchField className="w-full" />

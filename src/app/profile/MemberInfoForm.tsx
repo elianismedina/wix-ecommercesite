@@ -56,7 +56,7 @@ export default function MemberInfoForm({ member }: MemberInfoFormProps) {
           name="loginEmail"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Login email</FormLabel>
+              <FormLabel>Correo de inicio de sesión</FormLabel>
               <FormControl>
                 <Input
                   placeholder="Login email"
@@ -74,7 +74,7 @@ export default function MemberInfoForm({ member }: MemberInfoFormProps) {
           name="firstName"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>First name</FormLabel>
+              <FormLabel>Primer nombre</FormLabel>
               <FormControl>
                 <Input placeholder="First name" {...field} />
               </FormControl>
@@ -87,7 +87,7 @@ export default function MemberInfoForm({ member }: MemberInfoFormProps) {
           name="lastName"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Last name</FormLabel>
+              <FormLabel>Apellido</FormLabel>
               <FormControl>
                 <Input placeholder="Last name" {...field} />
               </FormControl>

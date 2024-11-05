@@ -30,7 +30,7 @@ export default function Orders() {
         <p className="text-destructive">Error fetching orders</p>
       )}
       {status === "success" && !orders.length && !hasNextPage && (
-        <p>No orders yet</p>
+        <p>No tienes ordenes aún</p>
       )}
       {orders.map((order) => (
         <Order key={order.number} order={order} />
@@ -40,7 +40,7 @@ export default function Orders() {
           loading={isFetchingNextPage}
           onClick={() => fetchNextPage()}
         >
-          Load more orders
+          Cargar más ordenes
         </LoadingButton>
       )}
     </div>

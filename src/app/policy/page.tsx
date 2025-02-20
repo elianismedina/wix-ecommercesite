@@ -289,7 +289,7 @@ const PolicyPage = () => {
       </div>
 
       <h2 className="ml-8 mt-4 p-8 text-xl font-bold">Seguridad</h2>
-      <div>
+      <div className="ml-8 mr-8 p-8 text-lg">
         Buscamos implementar medidas razonables organizativas, técnicas y
         administrativas diseñadas para proteger la información personal bajo
         nuestro control. Lamentablemente, no se puede garantizar la seguridad
@@ -301,7 +301,7 @@ const PolicyPage = () => {
         sección Contáctenos abajo.
       </div>
       <h2 className="ml-8 mt-4 p-8 text-xl font-bold">Periodo de retención</h2>
-      <div>
+      <div className="ml-8 mr-8 p-8 text-lg">
         Retendremos su información personal durante el tiempo que sea necesario
         o esté permitido de acuerdo con el fin o los fines para los que se
         obtuvo. Los criterios utilizados para determinar nuestros periodos de
@@ -315,7 +315,7 @@ const PolicyPage = () => {
       <h2 className="ml-8 mt-4 p-8 text-xl font-bold">
         Sitios y servicios de terceros
       </h2>
-      <div>
+      <div className="ml-8 mr-8 p-8 text-lg">
         El Servicio puede contener vínculos a sitios de terceros. Esta
         Declaración de Privacidad no trata ni tampoco nos responsabilizamos por
         la privacidad, información o prácticas de terceros, incluidos terceros
@@ -326,7 +326,7 @@ const PolicyPage = () => {
         implica su aprobación por nosotros o nuestras filiales
       </div>
       <h2 className="ml-8 mt-4 p-8 text-xl font-bold">Contáctenos</h2>
-      <div>
+      <div className="ml-8 mr-8 p-8 text-lg">
         EFICIENCIA SOLAR DEL CARIBE S.A.S en Carrera 24 # 53c 29 Barranquilla,
         es la empresa responsable de la recopilación, uso y divulgación de
         información personal de acuerdo con esta Declaración de Privacidad. Si
@@ -342,7 +342,7 @@ const PolicyPage = () => {
         {" "}
         Actualizaciones de esta declaración de privacidad
       </h2>
-      <div>
+      <div className="ml-8 mr-8 p-8 text-lg">
         Podremos modificar esta Declaración de Privacidad. Toda modificación de
         nuestra Declaración de Privacidad entrará en vigor con la publicación de
         la Declaración de Privacidad revisada en el Servicio. Si utiliza el

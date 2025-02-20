@@ -7,11 +7,13 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 gap-x-12 gap-y-16 md:col-span-3 lg:grid-cols-6">
           <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
-            <div className="text-2xl font-bold">Paco & Tuti</div>
+            <div className="text-2xl font-bold">
+              Eficiencia Solar del Caribe
+            </div>
             <p className="mt-7 text-base leading-relaxed text-muted-foreground">
-              Somos un multi marca enfocado en seleccionar los mejores productos
-              del mundo de los bebés para llevarlo a los padres del mundo con
-              amor.
+              Switch to clean, renewable energy today and start saving on your
+              electricity bills! Our expert solar panel installation team makes
+              going solar easy and affordable.
             </p>
 
             <ul className="mt-9 flex items-center space-x-3">
@@ -104,7 +106,7 @@ export default function Footer() {
                   className="flex text-base transition-all duration-200 hover:text-primary focus:text-primary"
                 >
                   {" "}
-                  Acerca de Paco & Tuti{" "}
+                  Acerca de Eficiencia Solar del Caribe{" "}
                 </a>
               </li>
 
@@ -184,7 +186,7 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="/policy"
                   title=""
                   className="flex text-base transition-all duration-200 hover:text-primary focus:text-primary"
                 >
@@ -197,7 +199,7 @@ export default function Footer() {
 
           <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
             <p className="text-sm font-semibold uppercase tracking-widest text-muted-foreground">
-              Únete a la lista de amigos de Paco & Tuti
+              Únete a la lista de amigos de Efciencia Solar del Caribe
             </p>
 
             <form action="#" method="POST" className="mt-6">
@@ -229,7 +231,7 @@ export default function Footer() {
 
         <p className="text-center text-sm text-muted-foreground">
           © Copyright {new Date().getFullYear()}, Todos los derechos reservados
-          por Paco & Tuti Shop
+          por Eficiencia Solar del Caribe
         </p>
       </div>
     </footer>

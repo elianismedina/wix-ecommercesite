@@ -32,8 +32,10 @@ export default async function Navbar() {
         </Suspense>
         <div className="flex flex-wrap items-center gap-5">
           <Link href="/" className="flex items-center gap-4">
-            <Image src={logo} alt="Flow Shop logo" width={40} height={40} />
-            <span className="text-xl font-bold">Paco & Tuti</span>
+            <Image src={logo} alt="Flow Shop logo" width={60} height={60} />
+            <span className="text-xl font-bold">
+              Eficiencia solar del Caribe
+            </span>
           </Link>
           <MainNavigation
             collections={collections}

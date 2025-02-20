@@ -16,12 +16,12 @@ export default function Home() {
       <div className="flex items-center bg-secondary md:h-96">
         <div className="space-y-7 p-10 text-center md:w-1/2">
           <h1 className="text-3xl font-bold md:text-4xl">
-            Consiente a tu bebé con lo mejor
+            The power of solar energy at home
           </h1>
           <p>
-            ¿Pensando en cómo consentir a tu pequeñin? Encuentra las mejores
-            maraca de ropa y accesorios para bebé en Paco & Tuti. ¡Hazlo sonreir
-            y regalale lo mejor de ti!
+            Switch to clean, renewable energy today and start saving on your
+            electricity bills! Our expert solar panel installation team makes
+            going solar easy and affordable.
           </p>
           <Button asChild>
             <Link href="/shop">
